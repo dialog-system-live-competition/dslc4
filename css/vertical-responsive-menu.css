@@ -68,7 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 .menu {
 	position: absolute;
 	top: 0;
-	bottom: 40px;
+	bottom: 10%;
 	overflow-y: auto;
 	width: 100%;
 	margin: 0;

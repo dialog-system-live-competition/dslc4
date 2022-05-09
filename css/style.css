@@ -3,7 +3,7 @@
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
 	margin: 0; /*ボックス外側の余白(値1つは上下左右をまとめて指定)*/
-	padding: 10; /*ボックス内側の余白(値1つは上下左右をまとめて指定)*/
+	padding: 0; /*ボックス内側の余白(値1つは上下左右をまとめて指定)*/
 	border: 0; /*境界線指定*/
 }
 html, body {
@@ -140,8 +140,8 @@ article {
 }
 section {
 	width: 80%; /*幅指定(100%は画面横幅いっぱいに表示)*/
-	margin: 10px 10px 10px 100px; /*ボックス外側の余白*/
-	padding: 10px; /*ボックス内側の余白*/
+	margin: 0 auto; /*ボックス外側の余白*/
+	padding: 20px; /*ボックス内側の余白*/
 	background: #fff; /*背景指定*/
 }
 article h2 {
@@ -151,8 +151,8 @@ article h2 {
 	font-family: 'メイリオ', cursive; /*フォントの種類指定(左から優先順位)*/
 	text-align: center; /*行の水平方向の揃え方(centerは中央揃え)*/
 	line-height: 3; /*行の高さ指定(数値のみの場合はfont-sizeの倍数)*/
-	background: #c2edff;/*背景色*/
-	padding: 0.5em;/*文字まわり（上下左右）の余白*/
+	background: #c2edff; /* 背景色 */
+	/* padding: 0.5em;文字まわり（上下左右）の余白 */
 
 }
 article h3 {
@@ -162,7 +162,6 @@ article h3 {
 }
 article li, p {
 	font-size: 1.3em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
-	margin-left: 50px; /*ボックス外側左の余白*/
 }
 .terms_content li li {
 	font-size: 100%; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
